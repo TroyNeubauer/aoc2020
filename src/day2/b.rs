@@ -17,15 +17,6 @@ fn int32(inupt: &str) -> nom::IResult<&str, i32> {
 }
 
 
-//named!(line_impl<&str, i32>,
-//    nom::fn tuple!(int32, nom::tag!("-"), int32, nom::tag!(" "), 
-//        nom::character::complete::char, nom::tag!(": "), many!(nom::character::complete::char)
-//    )
-//);
-
-
-
-
 fn get_line(input: &str) -> nom::IResult<&str, bool> {
     let (input, (a_index, _, b_index, _, c, _, password, _)) =
         nom::sequence::tuple(
