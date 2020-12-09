@@ -79,6 +79,16 @@ name = "day8b"
 path = "src/day8/b.rs"
 
 
+[[bin]]
+name = "day9a"
+path = "src/day9/a.rs"
+
+[[bin]]
+name = "day9b"
+path = "src/day9/b.rs"
+
+
+
 [dependencies]
 nom = "6.0.1"
 

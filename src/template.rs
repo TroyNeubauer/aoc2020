@@ -1,5 +1,19 @@
 use std::io::Read;
+use std::collections::HashMap;
 
+
+
+#[test]
+fn test() {
+let input = String::from(
+r#""#);
+    let lines = input.lines().collect();
+    assert_eq!(execute(lines), 5);
+
+}
+
+fn execute(lines: Vec<&str>) -> i32 {
+}
 
 fn main() {
     let mut reader = std::io::stdin();
@@ -7,10 +21,6 @@ fn main() {
     let mut input = String::new();
     reader.read_to_string(&mut input).expect("Failed to read input");
 
-    let mut counter = 0;
-    for passport in input {
-    
-    }
-    println!("Total: {}", counter);
-
+    let lines: Vec<&str> = input.lines().collect();
+    println!("Loop exited. Acc {}", execute(lines));
 }
