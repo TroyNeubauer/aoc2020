@@ -97,9 +97,27 @@ name = "day10b"
 path = "src/day10/b.rs"
 
 
+[[bin]]
+name = "day11a"
+path = "src/day11/a.rs"
+
+[[bin]]
+name = "day11b"
+path = "src/day11/b.rs"
+
+
+[[bin]]
+name = "day12a"
+path = "src/day12/a.rs"
+
+[[bin]]
+name = "day12b"
+path = "src/day12/b.rs"
+
+
 
 
 [dependencies]
 nom = "6.0.1"
-
+vector2d = "2.2.0"
 
