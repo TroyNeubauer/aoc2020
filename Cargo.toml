@@ -115,6 +115,26 @@ name = "day12b"
 path = "src/day12/b.rs"
 
 
+[[bin]]
+name = "day13a"
+path = "src/day13/a.rs"
+
+[[bin]]
+name = "day13b"
+path = "src/day13/b.rs"
+
+
+[[bin]]
+name = "day14a"
+path = "src/day14/a.rs"
+
+[[bin]]
+name = "day14b"
+path = "src/day14/b.rs"
+
+
+
+
 
 
 [dependencies]
