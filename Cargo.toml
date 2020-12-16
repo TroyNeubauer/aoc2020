@@ -142,9 +142,19 @@ name = "day15b"
 path = "src/day15/b.rs"
 
 
+[[bin]]
+name = "day16a"
+path = "src/day16/a.rs"
+
+[[bin]]
+name = "day16b"
+path = "src/day16/b.rs"
+
+
 
 
 [dependencies]
 nom = "6.0.1"
 vector2d = "2.2.0"
+scan_fmt = "0.2.5"
 
